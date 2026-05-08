@@ -1,12 +1,17 @@
-👋 ¡Hola! Soy un administrador de sistemas con experiencia en la automatización de tareas y el despliegue de infraestructuras eficientes y seguras.
+# Control de visitas: oficina y finca
 
-🔧 Trabajo con entornos virtualizados basados en **Proxmox VE**, gestionando clústeres, alta disponibilidad y optimización de recursos para entornos empresariales.
+Aplicación web sencilla para registrar los días que visitas la **oficina** o la **finca**.
 
-📜 Me apasiona la **automatización** con **PowerShell**, **Bash** y **Power Automate**, desarrollando scripts para la administración de usuarios en **Active Directory**, **Azure AD**, tareas programadas, backups, y más.
+## Funcionalidades
 
-📡 También tengo experiencia integrando herramientas como **pfSense**, **NetBox**, y **Snipe-IT** en entornos corporativos, enfocándome en la documentación, la seguridad y la eficiencia operativa.
+- Registro de visitas por lugar y fecha.
+- Historial de visitas ordenado por fecha (más reciente primero).
+- Alerta automática si pasan más de **60 días** sin visitar la finca.
+- Persistencia local con `localStorage` del navegador.
 
-🚀 Actualmente estoy desarrollando un proyecto de red corporativa virtualizada como parte de mi formación en Administración de Sistemas, simulando un entorno empresarial completo.
+## Uso
 
-📂 En mis repositorios encontrarás configuraciones reales, scripts reutilizables y documentación técnica pensada para administradores de sistemas.
-
+1. Abre `index.html` en tu navegador.
+2. Elige el lugar (oficina o finca).
+3. Selecciona la fecha y pulsa **Guardar visita**.
+4. Revisa el estado de la finca y el historial.
